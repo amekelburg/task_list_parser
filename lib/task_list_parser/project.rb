@@ -53,7 +53,6 @@ class TaskListParser::Project
   
   def day=(value)
     begin
-      puts "Setting day via parsine '#{value}'"
       date = Date.parse(value)
       if date < last_date
         date = last_date + (7 - (last_date.wday - date.wday))

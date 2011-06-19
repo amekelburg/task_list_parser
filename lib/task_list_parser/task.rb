@@ -149,7 +149,6 @@ class TaskListParser::Task
       end
     else
       @time ||=  (start || TaskListParser::CONF[:start_time])
-      puts "#{name} #{time}"
       #It can go on a date/time
       ical << "BEGIN:VEVENT"
       ical << "UID:#{self.timed_uid}"
