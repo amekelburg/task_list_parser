@@ -1,0 +1,15 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/task_list_parser.rb
+lib/task_list_parser/blank_task.rb
+lib/task_list_parser/list.rb
+lib/task_list_parser/project.rb
+lib/task_list_parser/task.rb
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_task_list_parser.rb
